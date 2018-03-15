@@ -5,7 +5,7 @@ MAINTAINER Jan-Erik Revsbech <jer@peytz.dk>
 RUN apt-get update
 
 # Install Nice librarieeees
-RUN apt-get install -y mysql-client redis-tools
+RUN apt-get install -y mysql-client redis-tools curl iputils-ping
 
 # Define default command.
 CMD ["bash"]
